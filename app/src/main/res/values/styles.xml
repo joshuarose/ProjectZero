@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="BaseButton">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="BaseButton.OrangeButton">
+        <item name="android:background">@color/UdacityOrange</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="BaseButton.MagentaButton">
+        <item name="android:background">@color/UdacityMagenta</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <color name="UdacityOrange">#F08C35</color>
+    <color name="UdacityMagenta">#C60342</color>
+
+
+</resources>

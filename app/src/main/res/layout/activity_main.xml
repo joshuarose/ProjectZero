@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/titleString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp">
+
+        <Button
+            android:text="@string/spotifyAppString"
+            android:id="@+id/spotifyAppButton"
+            style="@style/BaseButton.OrangeButton"/>
+
+        <Button
+            android:text="@string/scoresAppString"
+            android:id="@+id/scoresAppButton"
+            style="@style/BaseButton.OrangeButton"/>
+
+        <Button
+            android:text="@string/libraryAppString"
+            android:id="@+id/libraryAppButton"
+            style="@style/BaseButton.OrangeButton"/>
+
+        <Button
+            android:text="@string/biggerAppString"
+            android:id="@+id/biggerAppButton"
+            style="@style/BaseButton.OrangeButton"/>
+
+        <Button
+            android:text="@string/xyzAppString"
+            android:id="@+id/xyzAppButton"
+            style="@style/BaseButton.OrangeButton"/>
+
+        <Button
+            android:text="@string/capstoneAppString"
+            android:id="@+id/capstoneAppButton"
+            style="@style/BaseButton.MagentaButton"/>
+    </LinearLayout>
+
+</RelativeLayout>

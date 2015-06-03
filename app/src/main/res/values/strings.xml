@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectZero</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="spotifyAppString">Spotify Streamer</string>
+    <string name="scoresAppString">Scores App</string>
+    <string name="libraryAppString">Library App</string>
+    <string name="biggerAppString">Build it Bigger</string>
+    <string name="xyzAppString">XYZ Reader</string>
+    <string name="capstoneAppString">Capstone: My Own App</string>
+    <string name="titleString">My Nanodegree Apps!</string>
+    <string name="button_launch_string">"This button will launch my "</string>
+    <string name="app">app</string>
+</resources>
